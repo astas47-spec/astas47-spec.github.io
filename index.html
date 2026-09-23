@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>astas47</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #666666;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111318;
+        --fg: #e8e8e8;
+        --muted: #9aa0a6;
+        --accent: #6ea8ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 4rem 1rem 2rem;
+    }
+    h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
+    .lead { color: var(--muted); font-size: 1.125rem; margin: 0 0 2rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.5rem; }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25rem; }
+    footer {
+      padding: 1.5rem 1rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Привет, я astas47</h1>
+    <p class="lead">Это моя страница на GitHub Pages.</p>
+
+    <h2>Обо мне</h2>
+    <p>Здесь будет короткий рассказ о том, чем я занимаюсь.</p>
+
+    <h2>Ссылки</h2>
+    <ul>
+      <li><a href="https://github.com/astas47-spec">GitHub</a></li>
+    </ul>
+  </main>
+  <footer>&copy; 2026 astas47</footer>
+</body>
+</html>
